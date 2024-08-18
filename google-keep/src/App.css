@@ -1,0 +1,49 @@
+body {
+  background: #202124;
+}
+
+.form-button {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  color: #ffe;
+  font-weight: 400;
+}
+
+.form-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  backdrop-filter: 'blur(5px)';
+  cursor: pointer;
+}
+
+.form-icon-div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-icon-div :hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  backdrop-filter: 'blur(5px)';
+  border-radius: 100%;
+}
+
+.form-icon {
+  width: 20px !important;
+  height: 20px !important;
+  padding: 10px;
+}
+
+.nav-menu-item-link {
+  text-decoration: none;
+  display: flex;
+  color: #ffe;
+}
